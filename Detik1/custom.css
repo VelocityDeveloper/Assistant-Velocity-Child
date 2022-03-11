@@ -1,0 +1,89 @@
+.fl-col-group > .sticky-top {
+    z-index: 90;
+    top: 3rem;
+}
+
+.admin-bar .fl-col-group > .sticky-top {
+    top: 5rem;
+}
+
+.image-zoom img {
+    transition: all .5s;
+    position: relative;
+    border-radius: .25rem;
+}
+
+.image-zoom {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.post:hover .image-zoom img,
+.uabb-blog-post-content:hover .image-zoom img {
+    transform: scale(1.2);
+}
+.bigheadline-archive {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.bigheadline-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: #000000;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #fff;
+}
+.bigheadline-text a {
+    color: #fff;
+}
+.bigheadline-text a:hover,
+.bigheadline-tag {
+    color: var(--orange);
+}
+.bigheadline-arel-item a {
+    font-size: .9rem;
+    line-height: 1.25rem;
+    display: block;
+}
+.bigheadline-arel-headline:after {
+    background-color: rgba(255, 255, 255, 0.1);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    left: 0.5em;
+    margin-right: -100%;
+}
+.wpcf7 {
+    margin: 0 !important;
+}
+
+
+@media (min-width: 768px) {
+    body:not(.fl-builder-edit) .nav-scrolled {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999;
+        transition: all .5s;
+    }  
+    .admin-bar:not(.fl-builder-edit) .nav-scrolled {
+        top: 32px;
+    }
+    .bigheadline-text {
+        padding: 2rem;
+    }
+    .bigheadline-title {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+}
