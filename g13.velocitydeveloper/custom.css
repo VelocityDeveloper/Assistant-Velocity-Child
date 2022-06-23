@@ -1,0 +1,37 @@
+.fl-module-uabb-image-carousel {
+    overflow: hidden;
+}
+div.uabb-image-carousel .slick-prev {
+	margin-left: 3rem;
+}
+div.uabb-image-carousel .slick-next {
+	margin-right: 3rem;
+}
+
+@media (min-width: 768px) {
+  header .fl-menu ul.menu > li > a,
+  header .fl-menu ul.menu > li > .fl-has-submenu-container > a {
+    position: relative;
+    z-index: 1;
+  }
+  header .fl-menu ul.menu > li > a:after,
+  header .fl-menu ul.menu > li > .fl-has-submenu-container > a:after {
+    content: '';
+    position: absolute;
+    background-color: var(--primary);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;    
+    z-index: -1;
+    transition: all .4s;
+    transform: translateY(10px);
+  }
+  header .fl-menu ul.menu > li > a:hover:after,
+  header .fl-menu ul.menu > li > .fl-has-submenu-container > a:hover:after,
+  header .fl-menu ul.menu > li.current-menu-item > a:after,
+  header .fl-menu ul.menu > li.current-menu-item > .fl-has-submenu-container > a:after {
+    height: 100%;    
+    transform: translateY(0); 
+  }
+}
