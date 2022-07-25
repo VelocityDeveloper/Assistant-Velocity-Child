@@ -1,0 +1,95 @@
+.wpcf7 {
+    margin: 0 !important;
+}
+.fl-module-heading.heading-widget .fl-heading {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.75rem !important;
+}
+.fl-module-heading.heading-widget .fl-heading span {
+    position: relative;
+    padding-bottom: 0.75rem !important;
+}
+.fl-module-heading.heading-widget .fl-heading span:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--primary);
+}
+.fl-col.sticky-top {
+    z-index: 1;
+}
+.vd-big-thumb-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0 0 0 / 61%);
+    padding: 1rem;
+    color: #fff;
+}
+.vd-nav-thumb-item {
+    position: relative;
+}
+.vd-nav-thumb-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary);
+    opacity: 0;
+    z-index: 1;
+}
+.vd-nav-thumb-item.slick-current:before {
+    opacity: 1;
+}
+.vd-nav-thumb-title {
+    font-size: 14px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+}
+.vd-big-thumb:not(.slick-slider) .vd-big-thumb-item:not(:first-child),
+.vd-nav-thumb:not(.slick-slider)  {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .page-is-scrolled:not(.fl-builder-edit) header.fl-builder-content .scroll-fadeinup {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        max-width: 100%;
+        z-index: 1030;
+        animation: hilang 1s;
+        display: block !important;
+    }
+    .admin-bar.page-is-scrolled:not(.fl-builder-edit) header.fl-builder-content .scroll-fadeinup {
+        top: 32px;
+    }    
+    .admin-bar .fl-col.sticky-top {
+        top: 32px;
+    }
+    .vd-big-thumb-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 1000px) {
+    .vd-big-thumb-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@keyframes hilang {
+    0%   {opacity: 0;transform: translateY(-100%);}
+    100% {opacity: 1;transform: translateY(0);}
+}
