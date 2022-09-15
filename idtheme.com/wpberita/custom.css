@@ -1,0 +1,49 @@
+.ticker__list {
+    display: flex;
+    animation: ticker 55s infinite linear;
+}
+.ticker:hover .ticker__list {
+  animation-play-state: paused;
+}
+.ticker__item {
+    margin-right: 2rem;
+}
+.ticker__item a {
+    white-space: nowrap;
+}
+.fl-col.sticky-top {
+    z-index: 10;
+}
+.uabb-offcanvas,.uabb-offcanvas-overlay {
+    height: 100vh;
+    margin-top: 0 !important;
+}
+.float-iklan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    max-height: 100vh;
+}
+.float-iklan-kanan {
+    right: 0;
+    left: initial;
+}
+.float-iklan .close-iklan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    cursor: pointer;
+}
+.float-iklan-kanan .close-iklan {
+    left: 0;
+    right: initial;
+}
+body.fl-builder-edit .float-iklan {
+    display: none !important;
+}
+
+@keyframes ticker {
+    100%  {transform : translateX(-100%)}
+}
