@@ -1,0 +1,110 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+.share-title {
+	font-size: 20px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	color: var(--primary);
+	margin-bottom: 5px;
+}
+.postshare-button {
+	border: 0 !important;
+	font-size: 18px !important;
+	border-radius: 30px !important;
+	width: 36px;
+	text-align: center;
+	color: #ffffff !important;
+	margin-right: 7px !important;
+	margin-bottom: 7px !important;
+	line-height: 20px;
+	padding: 8px 0;
+}
+.s-twitter {background-color:#00ACED !important;}
+.s-facebook {background-color:#4267B2 !important;}
+.s-whatsapp {background-color:#1B9912 !important;}
+.s-pinterest {background-color:#E6001A !important;}
+.s-linkedin {background-color:#0077B7 !important;}
+.s-email {background-color:#FF6600 !important;}
+.s-telegram {background-color:#2481CC !important;}
+.fl-module-testimonials .fl-testimonials-wrap {
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
+	padding: 20px;
+	font-style: italic;
+}
+.widget .widget-title {
+	margin-bottom: 15px;
+	border-bottom: 3px solid #e5e5e5;
+	font-size: 22px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.widget ul label,
+.widget ul {
+	padding: 0;
+	margin: 0;
+}
+.widget ul li {
+	display: block;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	position: relative;
+	border-bottom: 1px dashed #e3e3e3;
+	margin-bottom: 7px;
+}
+.widget ul li::before {
+	content: "\f054";
+	font-family: "FontAwesome";
+	position: absolute;
+	top:0px;
+	left:2px;
+}
+.home-image img {
+	height: 315px;
+	object-fit: cover;
+}
+.vel-heading .fl-heading .fl-heading-text {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.vel-heading .fl-heading .fl-heading-text::before {
+	background: #eeeeee;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	width: 100%;
+	margin-left: -100%;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+.vel-heading .fl-heading .fl-heading-text::after {
+	background: #eeeeee;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	width: 100%;
+	margin-right: -100%;
+	margin-left: 40px;
+	vertical-align: middle;
+}
+footer table td {
+	padding: 3px;
+}
+footer table {
+	border-color: transparent !important;
+}
+html, body {
+    overflow-x: hidden;
+}
+
