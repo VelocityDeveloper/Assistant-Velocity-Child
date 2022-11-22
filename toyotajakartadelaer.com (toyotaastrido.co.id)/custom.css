@@ -1,0 +1,48 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+.fl-photo-caption {
+	text-align: left;
+	color: #9d9d9d;
+	font-style: italic;
+	font-size: 80%;
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+}
+.fl-node-kw0lq7ubaovd .uabb-creative-button-wrap a {
+	padding-top: 11px !important;
+	padding-bottom: 11px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.uabb-offcanvas-overlay, .uabb-offcanvas {
+	min-height:700px;
+}
+.fl-menu-responsive-toggle-always .fl-menu-icon {
+	float: right;
+	margin-left: 10px;
+}
+.fl-module-menu .fl-menu-mobile-close {
+	color: #fff;
+}
+.fl-menu-mobile-flyout {
+	top: 0 !important;
+	height: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .fl-module-menu .fl-menu-mobile-toggle-label,
+  .fl-module-uabb-off-canvas .uabb-offcanvas-trigger .uabb-creative-button-text {
+    display: none !important;
+  }
+	.fl-module-menu  .fl-menu-mobile-toggle {
+		font-size: 12px;
+	}
+}
+
