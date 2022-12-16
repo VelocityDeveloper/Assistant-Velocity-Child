@@ -1,0 +1,153 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+html, body {
+    overflow-x: hidden !important;
+}
+.fl-accordion-button-label:focus {
+	outline: none;
+}
+.layanan .fl-callout-icon-left .fl-icon,
+.layanan .fl-callout-icon-left .fl-callout-content {
+	vertical-align: middle;
+}
+.vel-icon-group .fl-module-content {
+	position: relative;
+	z-index: 1;
+}
+.vel-icon-group .fl-icon-group {
+    position: relative;
+}
+.vel-icon-group .fl-icon-group::after {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 0;
+	height: 100%;
+	width: 3000px;
+	background-color: #111;
+}
+.vel-icon-group .fl-icon-group .fl-icon {
+	position: relative;
+	font-size: initial;
+	padding: 17px 30px 17px 15px;
+	margin: 0 -4px 0 0;
+	display: inline-block;
+	width: auto !important;
+	-webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-moz-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-o-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	background-color: #111111;
+	font-size: 20px;
+}
+.vel-icon-group .fl-icon-group .fl-icon:hover {
+    background-color: #333333;
+}
+.vel-icon-group .fl-icon-group .fl-icon::before, .vel-icon-group .fl-icon-group .fl-icon::after {
+	content: '';
+	width: 0;
+	height: 100%;
+	border-style: solid;
+	border-width: 27px 15px 27px 0;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	-webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-moz-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-o-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	background-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.vel-icon-group .fl-icon-group .fl-icon::before {
+	left: -15px;
+	border-right-color: rgba(255,255,255,0.3);
+}
+.vel-icon-group .fl-icon-group .fl-icon::after {
+	left: -14px;
+	border-right-color: #111;
+}
+.vel-icon-group .fl-icon-group .fl-icon:hover::after {
+	border-right-color: #333333;
+}
+.vel-cari, .caribaru {
+    position: relative;
+}
+.vel-cari .tombols, .caribaru .tombolsbaru {
+	padding: 4px 15px;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 22px;
+	color: #595959;
+}
+.caribaru .tombolsbaru{
+    color: #fff;
+}
+.vel-cari .tombols:after, .caribaru .tombolsbaru:after {
+    content: '\f002';
+    font-family: fontawesome;
+}
+.vel-cari .tombols.collapsed:after, .caribaru .tombolsbaru.collapsed:after {
+    content: '\f00d';
+}
+.vel-cari #formsearchvel, .caribaru #formsearchvelbaru {
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    background: #fff;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.34);
+    top: 125%;
+    display: none;
+    width: 280px;
+}
+#formsearchvel .search-input, #formsearchvelbaru .search-input {
+    width: 85%;
+    float: left;
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+    box-shadow: inset 0 0 15px 0 rgba(0,0,0,.08);
+    border-right: 0;
+}
+#formsearchvel .search-button, #formsearchvelbaru .search-button {
+    float: left;
+    width: 15%;
+    background: transparent;
+    border: 0;
+    padding: 6px;
+    cursor: pointer;
+    color: #888;
+    border: 1px solid #ddd;
+    border-left: 0;
+    box-shadow: inset 0 0 15px 0 rgba(0,0,0,.08);
+}
+#formsearchvel:after, #formsearchvelbaru:after {
+    content: '\f0d8';
+    font-family: fontawesome;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+.vel-icon-group .fl-icon-group {
+    background-color: #111;
+}
+ .vel-icon-group .fl-icon-group::after,
+  header.fl-builder-content .fl-module-callout .fl-callout-icon-left .fl-icon {
+    display: none;
+  }
+}
+
