@@ -1,0 +1,38 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 8px 12px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+.fl-theme-builder-header-scrolled .sticky-off {
+	display: none !important;
+}
+.bgcolor-primary {
+	background-color: var(--primary) !important;
+}
+.velocity-post-thumbnail {
+  height: 300px;
+  width: 100%;
+  background-color: #ddd;
+  background-position: center;
+  background-size: contain;
+}
+.white-image img {
+	filter: brightness(0) invert(1);
+}
+
+@media only screen and (max-width: 768px) {
+  	html, body {
+      overflow-x: hidden;
+	}
+	.fl-builder-content .fl-module-content-slider .fl-slide .fl-slide-content {
+		padding: 0 !important;
+	}
+	.fl-content-slider-navigation .fl-content-slider-svg-container {
+		width: 22px !important;
+		height: 22px !important;
+	}
+}
