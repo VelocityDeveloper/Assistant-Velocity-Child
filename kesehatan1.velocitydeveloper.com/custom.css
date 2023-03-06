@@ -1,0 +1,33 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+.fl-builder-content .fl-module-content-slider .fl-slide .fl-slide-content {
+	padding: 0 !important;
+}
+.fl-content-slider-navigation .fl-content-slider-svg-container {
+	width: 20px !important;
+	height: 20px !important;
+}
+header.fl-builder-content {
+	position: relative;
+	z-index: 1;
+}
+.fl-module-widget .widget {
+	margin-bottom: 0 !important;
+}
+.container {
+	background-color: #Fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  html, body {
+      overflow-x: hidden;
+  }
+}
