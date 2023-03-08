@@ -1,0 +1,60 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+.white-image img {
+	filter: brightness(0) invert(1);
+}
+header .widget {
+	margin-bottom: 0 !important;
+}
+.postshare-button {
+	border: 0 !important;
+	font-size: 18px !important;
+	width: 37px;
+	text-align: center;
+	color: #fff !important;
+	line-height: 20px;
+	padding: 8px 0;
+}
+.s-twitter {background-color:#00ACED !important;}
+.s-facebook {background-color:#4267B2 !important;}
+.s-whatsapp {background-color:#1B9912 !important;}
+.s-pinterest {background-color:#E6001A !important;}
+.s-linkedin {background-color:#0077B7 !important;}
+.s-email {background-color:#FF6600 !important;}
+.s-telegram {background-color:#2481CC !important;}
+.postshare-button:hover {background-color:#111111 !important;}
+.velocity-heading .fl-heading {
+  padding-bottom: 10px;
+  position: relative;
+  border-bottom: 2px solid #dddddd;
+}
+.velocity-heading .fl-heading-text {
+	position: relative;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+.velocity-heading .fl-heading-text::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 100%;
+	height: 2px;
+	background-color: var(--primary);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  html, body {
+      overflow-x: hidden;
+  }
+}
