@@ -1,0 +1,54 @@
+.fl-contact-form textarea, .fl-contact-form input[type="text"], .fl-contact-form input[type="tel"], .fl-contact-form input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #373737;
+	border-radius: 3px;
+}
+.velocity-info-banner .uabb-ultb3-box {
+	border-radius: 20px;
+	position: relative;
+}
+.fl-module-adv-testimonials .bx-wrapper {
+	background-color: #fff;
+	padding: 20px;
+	margin: 0;
+}
+.fl-module-blog-posts .uabb-blog-posts-carousel .uabb-post-heading {
+	font-size: 15px;
+}
+.fl-module-blog-posts .uabb-blog-posts-carousel .slick-slide .frame-gambar img {
+	max-width: 180px;
+	display: inline-block;
+	transition: all 400ms ease-in;
+}
+.fl-module-blog-posts .uabb-blog-posts-carousel .slick-current.slick-active .frame-gambar img {
+	max-width: 250px;
+	transition: all 400ms ease-in;
+}
+.postshare-button {
+	border: 0 !important;
+	font-size: 18px !important;
+	width: 37px;
+	text-align: center;
+	color: #fff !important;
+	line-height: 20px;
+	padding: 8px 0;
+}
+.s-twitter {background-color:#00ACED !important;}
+.s-facebook {background-color:#4267B2 !important;}
+.s-whatsapp {background-color:#1B9912 !important;}
+.s-pinterest {background-color:#E6001A !important;}
+.s-linkedin {background-color:#0077B7 !important;}
+.s-email {background-color:#FF6600 !important;}
+.s-telegram {background-color:#2481CC !important;}
+.postshare-button:hover {background-color:#111111 !important;}
+
+
+@media only screen and (max-width: 768px) {
+  html, body {
+      overflow-x: hidden;
+  }
+}
