@@ -2,6 +2,11 @@
     top: 0px !important;
     height: 100vh !important;
 }
+.z-index {
+	position: relative;
+	z-index:9;
+}
+
 @media (min-width: 768px) {
   header .fl-menu ul.menu > li > a,
   header .fl-menu ul.menu > li > .fl-has-submenu-container > a {
