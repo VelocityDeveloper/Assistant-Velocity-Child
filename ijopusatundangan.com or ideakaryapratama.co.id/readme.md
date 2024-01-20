@@ -1,1 +1,1 @@
-web ysng mirip: https://ijopusatundangan.com https://ideakaryapratama.co.id https://akurgroup.com/
+web yang mirip: https://ijopusatundangan.com https://ideakaryapratama.co.id https://akurgroup.com/
