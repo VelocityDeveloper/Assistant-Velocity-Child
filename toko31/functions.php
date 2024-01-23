@@ -9,7 +9,6 @@ add_shortcode('tombol-detail-beli', function($atts) {
         'post_id' 	=> $post->ID
     ), $atts );
     $post_id = $atribut['post_id'];	
-    $wa = velocitytheme_option('whatsapp_number', '');
 	$html = '<div class="row">';    
         $html .= '<div class="col-7 pe-1 text-end">';
             $html .= '<a class="btn btn-sm btn-primary rounded-0 px-3" href="'.get_the_permalink($post_id).'">Detail</a>';
